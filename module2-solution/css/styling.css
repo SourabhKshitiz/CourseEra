@@ -1,0 +1,91 @@
+
+* {
+  box-sizing: border-box;
+}
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: Helvetica;
+    text-align: center;
+    color: midnightblue;
+    margin-bottom: 25px;
+}
+
+p {
+    color: mistyrose;
+    padding: 15px 5px 0px 5px;
+    font-family: Helvetica sans-serif;
+    font-size: 20px;
+    position: relative;
+}
+
+.section { 
+    background-color: grey;
+    border: 2px solid black;
+    margin-top: 20px; 
+    margin-right: 20px; 
+    padding: 3px;
+    position: relative;
+    height: 150px;
+ }
+
+span {
+    font-size: 25px;
+    width: 200px;
+    border: 2px solid black;
+    font-weight: bold;
+    text-align: center;
+    float: right; 
+    top :0; right: 0; margin: 0;
+    position: absolute;
+}
+#title1 {
+    background-color: steelblue;
+    color: #000000;
+}
+#title2 {
+    background-color: thistle;
+    color: #000000;
+}
+#title3 {
+    background-color: springgreen;
+    color: #000000;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Desktop View **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+  }
+
+}
+
+/********** Tablet View **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+}
+
+/***********Mobile View ******************************/
+@media (max-width: 767px) {
+   .col-sd-12 {
+    float: left;
+    width: 100%
+  }
+  
+}
